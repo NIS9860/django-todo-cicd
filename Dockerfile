@@ -6,7 +6,7 @@ COPY requirements.txt /app/lastend
 
 RUN pip install -r requirements.txt
 
-COPY . /app/frontend
+COPY . /app/lastend
 
 expose 8000
 
